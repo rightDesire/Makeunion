@@ -78,7 +78,7 @@ body {
     padding: 0;
 }
 
-.todo__item {
+.todo-list__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,19 +86,19 @@ body {
     border-bottom: 1px solid #cccccc;
 }
 
-.todo__item:first-child {
+.todo-list__item:first-child {
     margin-top: 20px;
 }
 
-.todo__item.completed {
+.todo-list__item.completed {
     text-decoration: line-through;
     color: #888;
 }
 
-.todo__item button {
+.todo-list__item button {
     background-color: #ff4d4d;
 }
 
-.todo__item button:hover {
+.todo-list__item button:hover {
     background-color: #ff1a1a;
 }

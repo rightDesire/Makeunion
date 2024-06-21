@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (taskText.trim() === '') return;
 
         const listItem = document.createElement('li');
-        listItem.className = 'todo__item';
+        listItem.className = 'todo-list__item';
         listItem.innerHTML = `
             <span>${taskText}</span>
             <button>Удалить</button>
